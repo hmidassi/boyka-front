@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MartialArtist } from '../domain/martial-artist';
 
 @Component({
   selector: 'app-practitioner-file',
@@ -9,4 +10,5 @@ import { Component } from '@angular/core';
 })
 export class PractitionerFileComponent {
 
+  practitioner: MartialArtist= MartialArtist();
 }
