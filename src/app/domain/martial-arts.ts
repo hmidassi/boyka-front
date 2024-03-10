@@ -11,4 +11,3 @@ export interface MartialArt {
     weapon_manipulation: number,
     weapon_defense: number,
 }
-}
